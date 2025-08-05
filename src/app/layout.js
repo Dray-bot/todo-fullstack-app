@@ -1,5 +1,6 @@
 import './globals.css';
-import ToastProvider from '@/components/ToastProvider';
+import ToastProvider from '../components/ToastProvider';
+
 
 export const metadata = {
   title: 'To-Do App',

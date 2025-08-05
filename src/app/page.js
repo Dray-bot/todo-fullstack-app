@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { Plus, Trash2 } from 'lucide-react';
 import * as Dialog from '@radix-ui/react-dialog';
 import { useSnackbar } from 'notistack';
-import EmptyState from '../../../components/EmptyStateyState';
+import EmptyState from '../../../components/EmptyStateState';
 
 export default function Home() {
   const [todos, setTodos] = useState([]);
