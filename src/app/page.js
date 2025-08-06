@@ -10,6 +10,7 @@ import EmptyState from '@/components/EmptyState';
 
 
 
+
 export default function Home() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState('');
